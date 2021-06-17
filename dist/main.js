@@ -2,7 +2,11 @@
 const GameBoard = new GoldRush()
 GameBoard.print()
 
+const renderer = new Renderer()
 GameBoard.moveRight(GameBoard.player1)
+
+renderer.renderBoard(GameBoard.matrix)
+renderer.renderScore(GameBoard.players)
 
 $(document).keypress(function (e) {
   

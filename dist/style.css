@@ -1,0 +1,30 @@
+.board{
+    display: grid;
+    grid-auto-flow: row;
+}
+.row{
+    height: 120px;
+    background-color: aqua;
+    display: grid;
+    grid-auto-flow: column;
+    width: 100%;
+}
+.col{
+    background-color: azure;
+    border: 1px solid black;
+    width: 100%;
+}
+.Entity1{
+    background-color: brown;
+}
+.Entity2{
+    background-color: cadetblue;
+}
+.Entityc{
+    background-color: yellow;
+}
+#scores{
+    color: white;
+    background-color: rgb(71, 44, 8);
+    border: rgb(53, 38, 5) 10px solid;
+}
